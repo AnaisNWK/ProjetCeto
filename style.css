@@ -1,0 +1,39 @@
+
+.logo{
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbotron {
+  /* Choisis la hauteur ici */
+  height: 600px;
+
+  /* Tu lui donnes une image de background */
+  background-image: url("img/salad2_keto.jpg");
+
+  /* Centre l'image et la met bien sur tous les écrans */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img_jumbo{
+	position: absolute;
+	opacity: 0.5;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin : 10px 10px 10px 10px;
+	height: 450px;
+}
+
+.transp{
+	background:rgba(255,255,255,.5); 
+	padding-top: 20px;
+	padding-right:12px;
+	padding-bottom: 60px;
+}
+
+.pc{
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 40px;
+}
